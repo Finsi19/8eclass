@@ -31,19 +31,21 @@ const Schedule = () => {
   // Menentukan kelompok piket berdasarkan minggu saat ini
   if (currentWeek === 1 || currentWeek === 3) {
     piketGroup = [
-      ["Nicolas", "Togi", "Paulista", "Damar"],
-      ["Farel", "Jeriko", "Wahyu", "Davina"],
-      ["Alya", "Hendri", "Hisyam", "Dafy"],
-      ["Putri", "Natar", "Wahid", "Fadliansyah"],
-      ["Cariska", "Pratiwi", "Ridho", "Farji"],
+      ["Dzaki", "Lissa", "Rezky", "Revana", "Rama", "Adelia", "Zahra "],
+      ["Haikal", "Fadilah R", "Fadillah P", "Naysila", "Humaira", "Ayu", "Sabrina"],
+      ["Fathir", "Lionel", "Arman", "Cecilia", "Chikal", "Shilla", "Diana"],
+      ["Yudho", "Ahmad F", "Alif", "Nisa", "Mita", "Novita","Karunia"],
+      ["Refy", "Maliq", "Fairuz", "Abrisam", "Raffa", "Sarah",""],
+      ["Refy", "Maliq", "Fairuz", "Abrisam", "Raffa", "Sarah","Rika"],
     ];
   } else if (currentWeek === 2 || currentWeek === 4) {
     piketGroup = [
-      ["Annissa", "Daus", "Eki", "Attala"],
-      ["Sera", "Sultan", "Dimas", "Lista"],
-      ["Windi", "Amel", "Arif", "Fadli"],
-      ["Zaini", "Dendi", "Raka", "Bari"],
-      ["Putri", "Paulista", "Nila"],
+      ["Dzaki", "Lissa", "Rezky", "Revana", "Rama", "Adelia", "Zahra "],
+      ["Haikal", "Fadilah R", "Fadillah P", "Naysila", "Humaira", "Ayu", "Sabrina"],
+      ["Fathir", "Lionel", "Arman", "Cecilia", "Chikal", "Shilla", "Diana"],
+      ["Yudho", "Ahmad F", "Alif", "Nisa", "Mita", "Novita","Karunia"],
+      ["Refy", "Maliq", "Fairuz", "Abrisam", "Raffa", "Sarah",""],
+      ["Refy", "Maliq", "Fairuz", "Abrisam", "Raffa", "Sarah","Rika"],
     ];
   }
 
